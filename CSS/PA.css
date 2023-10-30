@@ -62,4 +62,8 @@ p {
         float: inherit !important;
         margin-left: 20%;
     }
+
+    .bg1, .bg2, .bg3, .bg4 {
+        display: none;
+    }
 }
