@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+}
+
+#contact-page {
+    margin-top: 3rem;
+}
+
+.content-dist {
+    margin-top: 10rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.bg2 {
+    position: absolute;
+    width: 30%;
+    z-index: -1;
+    right: 0;
+    bottom: -150px;
+}

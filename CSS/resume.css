@@ -1,0 +1,51 @@
+#resume-page {
+    margin-top: 3rem;
+}
+
+.resume {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pdf {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flower{
+    position: absolute;
+    z-index: 2;
+    top: 12rem;
+    left: 22rem;
+}
+
+/*Tablet*/
+@media screen and (max-width : 768px) {
+    .flower{
+        width: 4rem !important;
+        position: absolute;
+        z-index: 2;
+        top: 11rem;
+        left: 12rem;
+    }
+}
+
+/*Phone*/
+@media screen and (max-width: 426px){
+    .flower{
+        width: 4rem !important;
+        position: absolute;
+        z-index: 2;
+        top: 10rem;
+        left: 4rem;
+    }
+
+    .resume {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

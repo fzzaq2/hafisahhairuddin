@@ -1,0 +1,342 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    background-color: #FFF8F1;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: 'Averia Sans Libre', sans-serif;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Averia Sans Libre', sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.navbar {
+    padding-top: 0;
+}
+
+.navbar-brand {
+    font-family: 'Averia Sans Libre', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#header {
+    background-color: #FFCDE8;
+}
+
+.header-content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.header-content:hover {
+    color: #BB3E81;
+}
+
+#Resume{
+    margin: 50rem;
+}
+
+#VResume{
+    margin-bottom: 50rem;
+}
+
+.bg1 {
+    position: absolute;
+    width: 20%;
+    z-index: -1;
+    right: 80px;
+    top: 500px;
+}
+
+.bg2 {
+    position: absolute;
+    width: 30%;
+    z-index: -1;
+    right: 0;
+    bottom: -20px;
+}
+
+.bg3 {
+    position: absolute;
+    width: 20%;
+    z-index: -1;
+    left: 80px;
+    top: 900px;
+}
+
+.bg4 {
+    position: absolute;
+    width: 20%;
+    z-index: -1;
+    left: 80px;
+    top: 170px;
+}
+
+.content-dist {
+    margin-top: 4rem;
+}
+
+.content-dist-3 {
+    margin-top: 3rem;
+}
+
+.content-dist-2 {
+    margin-top: 2rem;
+}
+
+.content-dist-5 {
+    margin-top: 5rem;
+}
+
+
+.content-dist-b-1 {
+    margin-bottom: 1rem;
+}
+
+.content-dist-b-2 {
+    margin-bottom: 2rem;
+}
+
+.btn-outline-primary {
+    color: black !important; 
+    border-color: black;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: #FFCDE8;
+    border-color: #FFCDE8;
+}
+
+.btn-outline-primary:active {
+    color: white !important;
+    background-color: #bb518a !important;
+    border-color: #bb518a !important;
+}
+
+.icon{
+    display: none;
+}
+
+.topNav{
+    z-index: 5;
+    display: block;
+    height: 15%;
+    position: fixed;
+    opacity: 0;
+    top:3.5rem;
+    right: 0;
+    background-color: #FFCDE8;
+    transition: all 0.5s ease-in-out;
+    width: 100%
+}
+
+.topNav a{
+    opacity: 0;
+    float: none;
+    display: none;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+#btnControl {
+    display: none;
+}
+
+.center-container {
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+}
+
+.left-align {
+    left: 0;
+}
+
+.right-align {
+    right: 0;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.right-text {
+    text-align: right;
+}
+
+/*Responsive Purposes*/
+
+.icon {
+    font-size: 30px;
+}
+
+/*Tablet*/
+@media screen and (max-width : 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 3rem !important;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem !important;
+    }
+
+    a:hover {
+        color: inherit;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .comp-topNav > a {
+        display: none;
+    }
+
+    .topNav.responsive{
+        display: block;
+        height: 32%;
+        position: fixed;
+        opacity: 100%;
+        top:3.5rem;
+        right: 0;
+        background-color: #FFCDE8;
+        width: 100%
+    }
+
+    .topNav.responsive a{
+        opacity: 100%;
+        float: none;
+        display: block;
+        text-align: right;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .bg2 {
+        display: none;
+    }
+}
+
+/*Phone*/
+
+@media screen and (max-width: 426px){
+
+    p {
+        font-size: 1rem;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        font-family: 'Averia Sans Libre', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem !important;
+    }
+
+    a:hover {
+        color: inherit;
+    }
+
+    .col{
+        width: 100% !important;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .comp-topNav > a {
+        display: none;
+    }
+
+    .topNav.responsive{
+        display: block;
+        height: 30%;
+        position: fixed;
+        opacity: 100%;
+        top:2.5rem;
+        right: 0;
+        background-color: #FFCDE8;
+        width: 100%
+    }
+
+    .topNav.responsive a{
+        opacity: 100%;
+        float: none;
+        display: block;
+        text-align: right;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .bg2 {
+        display: none;
+    }
+
+    .left-align{
+        text-align: center;
+    }
+
+    .right-align{
+        text-align: center;
+    }
+
+    .center {
+        margin: 0;
+        position: static;
+        transform: translateY(0);
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (hover:none) {
+    a:hover {
+        color: inherit !important;
+    }
+}

@@ -1,0 +1,52 @@
+#vresume-page {
+    margin-top: 3rem;
+}
+
+.content-dist {
+    margin-left: 22%;
+}
+
+iframe {
+    border: solid 10px #FFCDE8;
+    border-radius: 28px;
+}
+
+/*Tablet*/
+@media screen and (max-width : 769px) {
+
+    .content-dist {
+        margin-left: 15%;
+    }
+
+    iframe {
+        width: 520px; height: 321px;
+    }
+
+
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1024px) {
+
+    .content-dist {
+        margin-left: 10%;
+    }
+
+    iframe {
+        width: 780px; height: 439px;
+    }
+
+
+}
+
+/*Phone*/
+@media screen and (max-width: 426px){
+
+    .content-dist {
+        margin-left: 10%;
+    }
+
+    iframe {
+        width: 310px; height: 174px;
+    }
+
+}

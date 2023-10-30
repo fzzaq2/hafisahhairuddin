@@ -1,0 +1,65 @@
+#achievement-page {
+    margin-top: 3rem;
+}
+
+.content {
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.pics {
+    width: 50%;
+    border: 10px solid #FFDFCD;
+    border-radius: 50px;
+    margin-left: 25%;
+}
+
+p {
+    font-size: 1.8rem
+}
+
+.content-detail > p {
+    text-align: left;
+    font-weight: 500;
+    width: 70%;
+    margin-top: 12%;
+}
+
+.content-detail-right > p {
+    margin-top: 10%;
+    width: 70%;
+    text-align: right;
+    float: right;
+}
+
+/*Tablet*/
+@media screen and (max-width : 768px){
+    .pics {
+        width: 80%;
+        border: 10px solid #FFDFCD;
+        border-radius: 50px;
+        margin-left: 12%;
+    }
+
+    p {
+        font-size: 1.2rem !important;
+    }
+}
+
+
+/*Phone*/
+@media screen and (max-width: 426px){
+    .pics {
+        width: 100%;
+        border: 10px solid #FFDFCD;
+        border-radius: 50px;
+        margin-left: 5%;
+    }
+
+    p {
+        text-align: center !important;
+        font-size: 1.2rem !important;
+        float: inherit !important;
+        margin-left: 20%;
+    }
+}
